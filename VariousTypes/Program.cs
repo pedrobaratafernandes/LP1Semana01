@@ -1,0 +1,30 @@
+﻿using System;
+
+namespace VariousTypes
+{
+    public class Program
+    {
+
+        private static void Main(string[] args)
+        {
+
+            // Create integer variables
+            int a = 10;        // standard integer (32 bits)
+            uint b = 20U;      // unsigned integer (32 bits)
+            long c = 30L;      // long integer (64 bits)
+            ulong d = 40UL;    // unsigned long integer (64 bits)
+            short e = 5;       // short integer (16 bits)
+            byte f = 255;      // very short integer (8 bits)
+
+            // Print the values of the various integer variables to the console
+            Console.WriteLine($"int: {a}");
+            Console.WriteLine($"uint: {b}");
+            Console.WriteLine($"long: {c}");
+            Console.WriteLine($"ulong: {d}");
+            Console.WriteLine($"short: {e}");
+            Console.WriteLine($"byte: {f}");
+
+
+        }
+    }
+}
