@@ -29,9 +29,19 @@ namespace VariousTypes
             char rain = '\u2602';
             char smile = '\u263A';
 
-            
+
             // Print the emojis
             Console.WriteLine($"{love} {rain} {smile}");
+
+            // Create real (floating-point) variables
+            double x = 3.1415;    // double precision (64 bits)
+            float y = 3.1415f;    // single precision (32 bits)
+            decimal z = 3.1415m;  // decimal precision (128 bits)
+
+            // Print the values of the various real variables to the console
+            Console.WriteLine($"double: {x}");
+            Console.WriteLine($"float: {y}");
+            Console.WriteLine($"decimal: {z}");
         }
     }
 }
