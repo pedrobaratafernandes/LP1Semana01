@@ -24,7 +24,14 @@ namespace VariousTypes
             Console.WriteLine($"short: {e}");
             Console.WriteLine($"byte: {f}");
 
+            // emoji in char (16 bits)
+            char love = '\u2764';
+            char rain = '\u2602';
+            char smile = '\u263A';
 
+            
+            // Print the emojis
+            Console.WriteLine($"{love} {rain} {smile}");
         }
     }
 }
