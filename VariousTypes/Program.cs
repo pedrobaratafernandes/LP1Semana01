@@ -42,6 +42,14 @@ namespace VariousTypes
             Console.WriteLine($"double: {x}");
             Console.WriteLine($"float: {y}");
             Console.WriteLine($"decimal: {z}");
+
+            // Define boolean variables
+            bool verdadeiro = true;
+            bool falso = false;
+
+            // Display the boolean values on the console
+            Console.WriteLine($"true: {verdadeiro}");
+            Console.WriteLine($"false : {falso}");
         }
     }
 }
