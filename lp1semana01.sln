@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeuPrograma", "MeuPrograma\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VariousTypes", "VariousTypes\VariousTypes.csproj", "{696D5FDF-D374-495C-8E3B-F33D891F99A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E01", "E01\E01.csproj", "{45B53AC5-3F4B-47F5-B9F2-9927AFD6ED2E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extra01", "E01\Extra01.csproj", "{45B53AC5-3F4B-47F5-B9F2-9927AFD6ED2E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
